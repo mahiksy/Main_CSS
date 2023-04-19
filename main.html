@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <title>Main Page</title>
 </head>
 <body>
-    <header
+    <header>
         <nav>
             <img id="icon" src="./images/logo.png" alt="DOTA 2">
             <div class="nav-bar">
@@ -19,36 +20,36 @@
         </nav>
         <div class="infoBox">
             <div class="textContent">
-                <p> Dota 2 Is Awesome </p>
+                <h1 id="topic"> Dota 2 Is Awesome </h1>
                 <P>
                     Every day, millions of players worldwide enter the battle as one of over a hundred Dota Heroes 
                     in a 5v5 team clash. Dota is the deepest multi-player action RTS game ever made and there's 
                     always a new strategy or tactic to discover.
                 </P>
-                <button class="button"> Sing Up </button>
+                <button class="button"> Sign Up </button>
             </div>
-            <img src="./images/dota2.jpg" alt="Heros Pic">
+            <img src="./images/dota2.jpg" width="400px" height="100" alt="Heros Pic">
         </div>
     </header>
 
     <div class="heroList">
-        <h2> Some Info Anout Heroes </h2>
+        <h2> Most Popular Dota 2 Heroes </h2>
         <div class="listBox">
             <div class="listItem"> 
-                <img src="" alt="">
-                <p>this is some information about Dark Willow</p>
+                <img src="./images/queen.png" alt="Queen of Pain">
+                <p>this is some information about Queen of Pain</p>
             </div>
             <div class="listItem"> 
-                <img src="" alt="">
+                <img src="./images/Rubick.jpg" alt="Rubick">
                 <p>this is some information about Rubick</p>
             </div>
             <div class="listItem"> 
-                <img src="" alt="">
-                <p>this is some information about Venomancer/p>
+                <img src="./images/veno.jpg" alt="Venomancer">
+                <p>this is some information about Venomancer</p>
             </div>
             <div class="listItem">  
-                <img src="" alt="">
-                <p>this is some information about Dazzdle</p>
+                <img src="./images/Medusa.jpg" alt="Medusa">
+                <p>this is some information about Medusa</p>
             </div>
         </div>
     </div>
@@ -59,17 +60,19 @@
             He created the OG team, which has been one of the most dominant teams in Dota 2 competition, 
             and he is the only player ever to win back-to-back tournaments at The International in 2018 and 2019.
         </p>
-        <p>Moe</p>
+        <p id="writer">-Moe</p>
     </div>
 
     <div class="actionBox">
-        <h3> Call to Action! It's Time! </h3>
-        <p> Sing up and play with lots of player all around the world and experience the best game!</p>
-        <button> Sing Up </button>
+        <div class="actionInfo">
+            <h3> Call to Action! It's Time! </h3>
+            <p> Sing up and play with lots of player all around the world and experience the best game!</p>
+        </div>
+        <button class="button darker"> Sign Up </button>
     </div>
 
     <footer>
-        <p> Copyright <i></i> </p>
+        <p> Copyright <i class="bi bi-c-circle"></i> </p>
     </footer>
 </body>
 </html>

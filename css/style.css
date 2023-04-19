@@ -2,3 +2,170 @@
     font-family: robotoItalic;
     src: url(../font/Roboto-Italic.ttf);
 }
+
+header{
+    background-color: #003049;
+    color: white;
+    width:1000px;
+    height: 350px;
+    padding-inline: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    width:1000px;
+    height:35px;
+}
+#icon{
+    margin-top: 10px;
+    width:150px;
+    height:auto;
+}
+.nav-bar{
+    
+    display:flex;
+    margin-top: 10px;
+    gap: 30px;
+    float:right;
+}
+.links{
+    color:#e5e7eb;
+    font-size: 22px;
+    text-decoration: none;
+}
+.infoBox{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 300px;
+    align-items: center;
+    margin-top: 50px;
+}
+.textContent{
+    width:500px;
+}
+.textContent p{
+    font-size: 18px;
+    color:#e5e7eb;
+}
+#topic{
+    margin:0;
+    padding:0;
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8
+}
+.button{
+    background-color: #669bbc;
+    width:70px;
+    height:25px;
+    border-radius: 5px;
+    font-weight: bold;
+    color:#f9faf8
+}
+.infoBox img{
+    width:380px;
+    height: auto;
+}
+.heroList{
+    margin-top: 50px;;
+    width: 700px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heroList h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#001219;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.listBox{
+    display: flex;
+    position: relative;
+    gap:10px;
+}
+
+.listItem{
+    width:170px;
+    height:150px;
+}
+.listItem img{
+    width:160px;
+    height:100px;
+    border: solid 3px #d62828;
+    border-radius: 10px;
+}
+.listItem p{
+    font-size: 13px;
+    padding-inline: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qouteBox{
+    justify-content: center;
+    background-color: #eae2b7;
+    width:1000px;
+    height: 350px;
+    padding-inline: 100px;
+    margin-top: 100px;;
+    margin-left: auto;
+    margin-right: auto;
+}
+.qouteBox p{
+    font-size: 30px;
+    justify-content: center;
+    padding-top: 100px;
+    margin: auto;
+    font-style: italic;
+}
+.qouteBox #writer{
+    margin-top: 0;
+    padding-top: 0;
+    float: right;
+    font-weight: bolder;
+}
+.actionBox{
+    background-color: #f77f00;
+    width: 700px;
+    height: 120px;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-inline: 50px;;
+    margin-top: 100px;
+}
+.actionInfo{
+    display: inline-block;
+    padding-top: 35px;
+    width:550px;
+}
+.actionInfo h3{
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+.actionInfo p{
+    margin-top: 5px;;
+    font-size: 13px;
+}
+.darker{
+    background-color: #005f73;
+}
+footer{
+    background-color: #003049;
+    color: white;
+    width:1000px;
+    height: 50px;
+    padding-inline: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+footer p{
+    width: 100px;
+    margin: auto;
+    padding-top: 15px;;
+}
