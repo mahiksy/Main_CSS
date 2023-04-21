@@ -1,8 +1,19 @@
 @font-face {
-    font-family: robotoItalic;
-    src: url(../font/Roboto-Italic.ttf);
+    font-family: 'robotoItalic';
+    src: url("../font/Roboto-Italic.ttf") format('truetype');
 }
+@font-face {
+    font-family: 'robotoBold';
+    src: url("../font/Roboto-Bold.ttf") format('truetype');
+}
+@font-face {
+    font-family: 'robotoRegular';
+    src: url("../font/Roboto-Regular.ttf") format('truetype');
+} 
 
+body{
+    font-family:'robotoRegular', sans-serif;
+}
 header{
     background-color: #003049;
     color: white;
@@ -50,6 +61,7 @@ nav{
     color:#e5e7eb;
 }
 #topic{
+    font-family: 'robotoBold',sans-serif;
     margin:0;
     padding:0;
     font-size: 48px;
@@ -116,11 +128,11 @@ nav{
     margin-right: auto;
 }
 .qouteBox p{
+    font-family: 'robotoItalic',sans-serif;
     font-size: 30px;
     justify-content: center;
     padding-top: 100px;
     margin: auto;
-    font-style: italic;
 }
 .qouteBox #writer{
     margin-top: 0;
